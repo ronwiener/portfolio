@@ -1,0 +1,55 @@
+.wrapper{
+    background-color: #76A2DF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;  
+}   
+
+.head {
+    background-color: #76A2DF;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.img { 
+    justify-content: center;
+    box-shadow: 5px 5px;   
+}
+
+.imagebox > p {
+    font-size: 20px;
+    text-align: center;
+    color: darkslategrey;
+}
+/*
+.box2 {
+    
+    background-color: lightgray;
+    
+}
+
+.box3 {
+   
+    background-color: lightgray;
+    
+    
+}
+
+.box4 {
+    background-color: lightgray;
+    
+    
+}
+
+.box5 {
+    background-color: lightgray;
+    
+    
+}
+.box6 {
+    background-color: lightgray;
+    
+}
+
+*/

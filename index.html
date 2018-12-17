@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../CSS Help/1-animate/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body> 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
    <!--navbar-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light"  id="nav-color">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <!--<a class="navbar-brand" href="#">Navbar</a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="nav-content">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#experience">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link contact" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -36,23 +39,49 @@
 
   <!--Jumbotron-->
   <div class="jumbotron jumbotron-fluid">
+    <a id="home"></a>
     <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <h1 class="display-4 animated slideInLeft">RON WIENER</h1>
+      <p class="lead animated slideInRight">WEB DEVELOPER, PROGRAMMER, INNOVATIVE THINKER</p>
     </div>
   </div>
 
+  <div class="about">
+    <a id="experience"></a>
+    <h2>MY EXPERIENCE</h2>
+    <p class="quote"><q><i>There's a vintage which comes with age and experience.</i></q>--Jon Bon Jovi</p>
+  <div class="statement">  
+    <p>In the early 90's, my wife and I had recently designed and built a new home, had adopted our baby girl, found out we were pregnant with our 1st born son, and I had quit my job to start my own company, Total Balance, Inc.  Those were exciting and scary times!  As a new father and a new business owner, the most important thing for me was to find a balance between family life and running a business.  Total Balance, as it turned out, was not only a perfect name for my business of testing and balancing HVAC systems but also became my work ethic.  It served me well as I worked hard to balance family, business, and good health.  I was able to grow my business, over the course of 26 years, into a multi-million dollar S-Corporation conducting business in a 5-state region, take the time to take care of myself, and be fully present for my family.  The job taught me the value of hiring and training good people and showing them appreciation, how to cooperate and work with HVAC design engineers and mechanical contractors to trouble shoot and solve problems, and how to handle day to day operations.  My family kept me grounded and taught me, unequivocally, that success in life is not simply the bottom line of your financial statement.  As they say, it's not about the destination as much as it is about the journey!  Running my own company, and raising a family has been a blessed journey indeed. Now, the kids are grown, my wife and I are looking forward to another 30 years, and I'm ready to embark on something new.  I am currently enrolled in Eleven Fifty Academy and learning HTML, CSS, and JavaScript.  I'm focused, determined,and excited to see where computer coding takes me.</p>
+  </div>  
+        <p class="resume">click <a href="https://drive.google.com/file/d/1XdaB3TJgTJzhS7A1mjhHVDfX8GIV_7C1/view?usp=sharing" target="blank">here</a> to download my resume</p>
+</div>
+<!--Projects section with images-->
+<section>
+    <a id="projects"></a>
+   <div class="head"> 
+    <h2>PROJECTS</h2>
+   </div>
+  <div class="wrapper">
+    <div class="imagebox box1 creature"><a href="https://codepen.io/Ron7602/full/KrYWgB" target="blank"><img src="./assests/img/cssCreature.jpg" style="width: 400px;height: 400;"></a><p>CSS Creature project</p></div>
+    
+    <div class="imagebox box2 quotes"><a href="https://codepen.io/Ron7602/full/ejxKOJ" target="blank"><img src="./assests/img/quotes.jpg" style="width: 400px;height: 400;"></a><p>Webpage implementing JavaScript</p></div>
+    <div class="imagebox box3 greyhound"><a href="https://codepen.io/Ron7602/full/WyVjRQ" target="blank"><img src="./assests/img/greyhounds.jpg" style="width: 400px;height: 400;"></a><p>Sidebar navigation demonstration</p></div>
+    <div class="imagebox box4 tutorial"><a href="https://ronwiener.github.io/JavaScript-Tutorial/" target="blank"><img src="./assests/img/tutorial.jpg" style="width: 400px;height: 400;"></a><p>Tutorial project</p></div>
+    <div class="imagebox box5 harrison"><a href="https://codepen.io/Ron7602/full/OEZbyR" target="blank"><img src="./assests/img/harrison.jpg" style="width: 400px;height: 400;"></a><p>CodePen biography page</p></div>
+    <div class="imagebox box6 api"><a href="" target="blank"><img src="" style="width: 400px;height: 400;">b</a><p>API project</p></div>
+  </div>
+
+</section>
 <!--formspree-->
-<section id="about"></section>
-   <section id="portfolio"></section>
-   <section id="contact">
-     <div class="container">
+<section id="contact">
+   
+     <div class='containers text-center'>
        <h2 class="text-center text-uppercase">Contact Me</h2>
-       <div class="row">
-         <form action="https://formspree.io/YOUR EMAIL HERE" method="POST">
+       <div className="row">
+         <form action="https://formspree.io/ronwiener31@gmail.com" method="POST">
          <div class="control-group">
              <div class="form-group">
-               <label>Name</label>
+               <label class="nameText">Name:</label>
                <input
                  type="text"
                  class="form-control"
@@ -67,7 +96,7 @@
            </div>
            <div class="control-group">
              <div class="form-group">
-               <label>Email Address</label>
+               <label class="emailText">Email Address:</label>
                <input
                  type="email"
                  class="form-control"
@@ -80,12 +109,13 @@
                <p class="help-block text-danger"></p>
              </div>
            </div>
-           <div class="control-group">
-             <div class="form-group">
+           <div class="control-text">
+             <div class="form-text">
+               <label class="messageMe">Message Me:</label>
                <textarea
-                 class="form-control"
+                 class="form-message"
                  rows="7"
-                 placeholder="Your Message"
+                 placeholder=""
                  id="message"
                  required
                  data-validation-required-message="Please leave a message"
@@ -94,19 +124,26 @@
                <p class="help-block text-danger"></p>
 </div>
            </div>
-           <div class="text-center">
+           <div class="submit">
              <div id="success"></div>
-             <button type="submit" class="btn btn-lg btn-black">
-               <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+             <button type="submit" class="btn btn-lg btn-black"><!---<i class="fa fa-paper-plane-o"  aria-hidden="true"</i>-->
                Send Message
              </button>
            </div>
+           <ul class="icons">
+           <li><p>find me on:</p></li>
+           <li><a href="https://www.linkedin.com/in/ron-wiener-29030a177/" target="blank"><i class="fab fa-linkedin" style="font-size:50px;color: black;text-shadow:2px 2px 4px #000000;"></i></a></li>
+           <li><a href="https://github.com/ronwiener" target="blank"><i class="fab fa-github" style="font-size:50px;color: black;text-shadow:2px 2px 4px #000000;"></i></a></li>
+           </ul>
          </form>
        </div>
      </div>
    </section>
-   <footer></footer>
-
+   <div>
+   <footer>
+      <p>&copy Ron Wiener 2018</p>
+   </footer class="footer">
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

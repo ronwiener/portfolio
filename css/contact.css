@@ -1,0 +1,65 @@
+#contact {
+    border: 2px solid black;
+    padding: 10px;
+    background-color:#0279E1;
+    
+}
+.control-group, .form-group, .form-control {
+    display: inline-block;
+    padding: 10px;
+    width: 450px;
+    margin-right: 40px;
+    text-align: left;
+}
+
+.nameText, .emailText {
+    font-size: 1.75em;
+}
+
+.form-message {
+    height: 20vh;
+    width: 60vh;
+}
+
+.messageMe {
+    font-size: 1.75em;
+    padding: 4px;
+    vertical-align: top;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    background-color: lightgray;
+    color:dodgerblue; 
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+.icons > li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 20px 0px 5px;
+    font-size: 24px;
+    bottom: 0px;
+    
+}
+
+.icons >li > a:link {
+   color: black;
+}
+
+.icons >li > a:hover {
+    background-color: white;
+    
+}
+
+
+
+
+

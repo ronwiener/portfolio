@@ -1,9 +1,12 @@
 .jumbotron {
-    background: url('https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=76ae2034864198c0b4daf6117ba25e72&auto=format&fit=crop&w=500&q=60')
+    background: url('https://images.unsplash.com/photo-1528999981900-4a4b66b29540?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80')
     no-repeat center;
 
     background-size: cover;
-    color: white;
+    color: black;
+    border: 2px solid black;
     text-align: center;
+    padding: 130px;
+    height: 70vh;
 
 }

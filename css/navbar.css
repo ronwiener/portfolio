@@ -1,4 +1,13 @@
+#nav-color {
+    background-color: lightslategray;  
+}
+
 #nav-content {
     margin-left: 65%;
+    font-size: 24px;
     
+}
+
+.nav-item {
+    padding: 15px;
 }

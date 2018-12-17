@@ -1,4 +1,12 @@
 body {
-    background-color: var(--green);
+    margin: 0;
+    padding: 0;
+    background-color: #E0E7F8;
     font-family: var(--mainFont);
+}
+
+.about {
+    background-color: #E0E7F8;
+    height: 100%;
+    top: 0;
 }
