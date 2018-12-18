@@ -14,42 +14,12 @@
 
 .img { 
     justify-content: center;
-    box-shadow: 5px 5px;   
+
 }
 
 .imagebox > p {
     font-size: 20px;
     text-align: center;
-    color: darkslategrey;
-}
-/*
-.box2 {
-    
-    background-color: lightgray;
-    
+    color: black;
 }
 
-.box3 {
-   
-    background-color: lightgray;
-    
-    
-}
-
-.box4 {
-    background-color: lightgray;
-    
-    
-}
-
-.box5 {
-    background-color: lightgray;
-    
-    
-}
-.box6 {
-    background-color: lightgray;
-    
-}
-
-*/

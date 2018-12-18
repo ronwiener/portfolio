@@ -13,8 +13,9 @@
 .statement {
     font-size: 20px;
     text-align: left;
+    line-height: 1.4;
     padding: 10px;
-    margin: 10px 20px 10px 20ppx;
+    margin: 10px 40px 10px 40px;
 }
 
 .resume {

@@ -50,12 +50,15 @@ h2 {
     
 }
 
-.icons >li > a:link {
-   color: black;
+.ronsIcon {
+    font-size:50px;
+    color: black;
+
 }
 
-.icons >li > a:hover {
-    background-color: white;
+.ronsIcon:hover {
+    color: white;
+    text-shadow:4px 4px 4px #000000;
     
 }
 
