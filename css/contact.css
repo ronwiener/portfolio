@@ -1,5 +1,5 @@
 #contact {
-    border: 2px solid black;
+   /* border: 2px solid black;*/
     padding: 10px;
     background-color:#0279E1;
     
@@ -10,10 +10,12 @@
     width: 450px;
     margin-right: 40px;
     text-align: left;
+   /* color: #F0F0FC;*/
 }
 
 .nameText, .emailText {
-    font-size: 1.75em;
+    font-size: 1.35em;
+    color: #F0F0FC;
 }
 
 .form-message {
@@ -31,6 +33,8 @@ h2 {
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
+    color: #F0F0FC;
+    padding: 20px;
 }
 
 .btn {
@@ -47,6 +51,7 @@ h2 {
     padding: 30px 20px 0px 5px;
     font-size: 24px;
     bottom: 0px;
+    color: #F0F0FC;
     
 }
 
